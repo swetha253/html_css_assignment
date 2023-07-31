@@ -1,0 +1,25 @@
+body,html{
+    height:100%;
+    width: 100%;
+}
+*{
+    margin: 0;
+    padding:0;
+}
+.images{
+    display: flex;
+    
+    justify-content: center;
+}
+.img1,.img2,.img3,.img4,.img5{
+    
+   
+     transition: transform 0.5s ease-in-out; 
+     
+
+}
+.img1:hover,.img2:hover,.img3:hover,.img4:hover,.img5:hover{
+
+    transform: scale(1.2);
+
+}

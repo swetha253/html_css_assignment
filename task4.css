@@ -1,0 +1,13 @@
+.nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: gray;
+}
+.nav a{
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 15px; 
+    color: black;
+}
