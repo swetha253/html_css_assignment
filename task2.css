@@ -8,10 +8,12 @@ body,html{
     
 }
 .container{
-    width:1500px;
-    height: 1500px;
+    margin: 100px;
+    width:800px;
+    height: 500px;
     display:flex;
     flex-direction: row;
+    justify-content:space-around;
 }
 .child1{
     width: 500px;
